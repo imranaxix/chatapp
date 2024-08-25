@@ -8,13 +8,7 @@
   </div>
 </template>
 
-<style>
-.ce-new-chat-button {
-  width: 32px;
-  position: relative;
-  bottom: 22px;
-}
-</style>
+
 
 <script>
 import { PrettyChatWindow } from "react-chat-engine-pretty";
