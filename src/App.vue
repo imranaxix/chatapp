@@ -11,6 +11,6 @@ const handleAuth = (newUser) => {
 </script>
 
 <template>
-  <AuthPage v-if="!user" @onAuth="handleAuth" />
-  <ChatsPage v-else :username="user.username" :secret="user.secret" />
+  <AuthPage  @onAuth="handleAuth" />
+  <ChatsPage  />
 </template>
